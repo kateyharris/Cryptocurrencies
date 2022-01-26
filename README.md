@@ -16,13 +16,18 @@ This challenge consists of four technical analysis deliverables:
 ## Results
 Visualized Cryptocurrencies Results:<br>
 
-![ElboCurve](https://user-images.githubusercontent.com/90797036/151095665-d0a14552-59c0-47fb-b2ad-a306421ace58.png)<br>
+### **Elbow Curve**<br>
+![ElboCurve](https://user-images.githubusercontent.com/90797036/151260220-a894bd94-5dab-4cfe-8f79-4557e313483c.png)<br>
 
 ### **3-D Cluster**<br>
 ![3d](https://user-images.githubusercontent.com/90797036/151095688-89825c48-f98b-41c1-a5c2-390dde41deea.png)<br>
+ - On hover:<br>
+  ![3dhover](https://user-images.githubusercontent.com/90797036/151262091-ab9247f2-0da4-47e8-abfe-118240eb6cc6.png)
 
 ### **Scatter Plot**<br>
 ![2d](https://user-images.githubusercontent.com/90797036/151095695-753cb35d-123f-4cce-9647-39d0bbb12931.png)<br>
+  - On hover:<br>
+  ![2dhover](https://user-images.githubusercontent.com/90797036/151262153-d5a390cf-2bbc-4067-a6a7-2bd9ae1c51bd.png)
 
 ## Summary
-
+Preprocessing of data required removal of nulls, filter for traderable currencies, removal of unneeded columns and conversion of text data to numeric data. There are 532 tradable cryptocurrencies. The best k-mean value for clustering cryptocurrencies determined on a Elbow Curve chart was 4. Though fun to rotate the 3D chart, the 2D chart proved more readible for this data set.
